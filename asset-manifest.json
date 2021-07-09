@@ -2,17 +2,17 @@
   "files": {
     "static/js/0.69b84485.chunk.js": "/suzy-class-landing/static/js/0.69b84485.chunk.js",
     "static/js/0.69b84485.chunk.js.map": "/suzy-class-landing/static/js/0.69b84485.chunk.js.map",
-    "main.js": "/suzy-class-landing/static/js/main.c158b022.chunk.js",
-    "main.js.map": "/suzy-class-landing/static/js/main.c158b022.chunk.js.map",
-    "runtime-main.js": "/suzy-class-landing/static/js/runtime-main.06319aba.js",
-    "runtime-main.js.map": "/suzy-class-landing/static/js/runtime-main.06319aba.js.map",
+    "main.js": "/suzy-class-landing/static/js/main.6540f276.chunk.js",
+    "main.js.map": "/suzy-class-landing/static/js/main.6540f276.chunk.js.map",
+    "runtime-main.js": "/suzy-class-landing/static/js/runtime-main.625fe6a8.js",
+    "runtime-main.js.map": "/suzy-class-landing/static/js/runtime-main.625fe6a8.js.map",
     "static/css/3.dbb450e1.chunk.css": "/suzy-class-landing/static/css/3.dbb450e1.chunk.css",
     "static/js/3.b9c3621e.chunk.js": "/suzy-class-landing/static/js/3.b9c3621e.chunk.js",
     "static/js/3.b9c3621e.chunk.js.map": "/suzy-class-landing/static/js/3.b9c3621e.chunk.js.map",
     "static/js/4.a32109ba.chunk.js": "/suzy-class-landing/static/js/4.a32109ba.chunk.js",
     "static/js/4.a32109ba.chunk.js.map": "/suzy-class-landing/static/js/4.a32109ba.chunk.js.map",
-    "static/js/5.623a03c6.chunk.js": "/suzy-class-landing/static/js/5.623a03c6.chunk.js",
-    "static/js/5.623a03c6.chunk.js.map": "/suzy-class-landing/static/js/5.623a03c6.chunk.js.map",
+    "static/js/5.e9970592.chunk.js": "/suzy-class-landing/static/js/5.e9970592.chunk.js",
+    "static/js/5.e9970592.chunk.js.map": "/suzy-class-landing/static/js/5.e9970592.chunk.js.map",
     "static/js/6.94f26403.chunk.js": "/suzy-class-landing/static/js/6.94f26403.chunk.js",
     "static/js/6.94f26403.chunk.js.map": "/suzy-class-landing/static/js/6.94f26403.chunk.js.map",
     "static/js/7.ccb26502.chunk.js": "/suzy-class-landing/static/js/7.ccb26502.chunk.js",
@@ -25,9 +25,9 @@
     "static/js/3.b9c3621e.chunk.js.LICENSE.txt": "/suzy-class-landing/static/js/3.b9c3621e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.06319aba.js",
+    "static/js/runtime-main.625fe6a8.js",
     "static/css/3.dbb450e1.chunk.css",
     "static/js/3.b9c3621e.chunk.js",
-    "static/js/main.c158b022.chunk.js"
+    "static/js/main.6540f276.chunk.js"
   ]
 }
