@@ -3,7 +3,8 @@ import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
-import ProductContent from "../../content/ProductContent.json";
+import OnlineClassContent from "../../content/OnlineClassContent.json";
+import OfflineClassContent from "../../content/OfflineClassContent.json";
 import ContactContent from "../../content/ContactContent.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
@@ -28,6 +29,7 @@ const Home = () => {
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
+        id="register"
       />
       <ContentBlock
         type="left"
@@ -46,16 +48,23 @@ const Home = () => {
       />
       <ContentBlock
         type="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
+        title={OfflineClassContent.title}
+        content={OfflineClassContent.text}
+        icon="team.svg"
+        id="offline-class"
+      />
+      <ContentBlock
+        type="right"
+        title={OnlineClassContent.title}
+        content={OnlineClassContent.text}
         icon="waving.svg"
-        id="product"
+        id="online-class"
       />
-      <Contact
-        title={ContactContent.title}
-        content={ContactContent.text}
-        id="contact"
-      />
+      {/*<Contact*/}
+      {/*  title={ContactContent.title}*/}
+      {/*  content={ContactContent.text}*/}
+      {/*  id="contact"*/}
+      {/*/>*/}
     </Container>
   );
 };

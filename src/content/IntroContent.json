@@ -1,12 +1,14 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Học Tiếng Anh cùng Ms. Suzy",
+  "text": "Giới thiệu học Tiếng Anh cùng Ms. Suzy, Giới thiệu học Tiếng Anh cùng Ms. Suzy, Giới thiệu học Tiếng Anh cùng Ms. Suzy",
   "button": [
     {
-      "title": "Explore"
+      "title": "Register",
+      "scrollTo": "register"
     },
     {
-      "title": "Learn more",
+      "scrollTo": "about",
+      "title": "Explore",
       "color": "#fff"
     }
   ]

@@ -21,9 +21,11 @@ const RightBlock = ({
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
   };
   return (
     <RightBlockContainer>
@@ -36,12 +38,15 @@ const RightBlock = ({
               <ButtonWrapper>
                 {typeof button === "object" &&
                   button.map((item: any, id: number) => {
+                    console.log(item)
                     return (
                       <Button
                         key={id}
                         color={item.color}
                         fixedWidth={true}
-                        onClick={() => scrollTo("about")}
+                        onClick={() => {
+                          console.log(item)
+                          scrollTo(item.scrollTo === undefined ? "about" : item.scrollTo)}}
                       >
                         {t(item.title)}
                       </Button>
