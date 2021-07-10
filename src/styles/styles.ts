@@ -3,14 +3,14 @@ import { createGlobalStyle } from "styled-components";
 export const Styles = createGlobalStyle`
 
     @font-face {
-        font-family: "Motiva Sans Light";
-        src: url("/fonts/OpenSans-Light.ttf") format("truetype");
+        font-family: "OpenSans Light";
+        src: url("${process.env.PUBLIC_URL}/fonts/OpenSans-Light.ttf") format("truetype");
         font-style: normal;
     }
 
     @font-face {
-        font-family: "Motiva Sans Bold";
-        src: url("/fonts/OpenSans-Bold.ttf") format("truetype");
+        font-family: "OpenSans Bold";
+        src: url("${process.env.PUBLIC_URL}/fonts/OpenSans-Bold.ttf") format("truetype");
         font-style: normal;
     }
 
@@ -57,7 +57,7 @@ export const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Motiva Sans Bold', serif;
+        font-family: 'OpenSans Bold', serif;
         color: #18216d;
         font-size: 56px;
         line-height: 1.18;
